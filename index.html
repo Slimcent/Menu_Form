@@ -1,0 +1,84 @@
+<html>
+  <head>
+     <title>Simple Menu Navigation and Form</title>
+     <link rel="stylesheet" href="css/nav.css">
+     <link rel="stylesheet" href="css/form.css">
+     
+     <!-- Font Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="fa/css/all.min.css">
+  </head>
+  <body>
+    <div class="menu">
+        <div class="open">
+	         <h4>Menu</h4>
+	      </div>
+        <input type="checkbox" id="bar" name="">
+        <label class="menu-btn" for="bar"><span class="navicon"></span></label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+    </div>
+    <div>
+        <p>
+          This is a responsive Menu and a Form with a Floating placehoider, Achara Obinna Vincent.
+        </p>
+    </div>
+    <div class="container">
+        <div class="heading">
+            <h3>Registration Form</h3>
+        </div>
+        <br/>
+        
+        <form>
+            <div class="icon">
+                <span class="fa fa-user"></span>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="">
+                <label>Username</label>
+                <span id="unamestatus" class ="text-danger"></span>
+                <span class="see" id="uldin" style="color:#fff"><img src="img/loader.gif" ></span>
+            </div>
+
+            <div class="icon">
+                <span class="fa fa-envelope"></span>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="">
+                <label>Email</label>
+                <span class ="text-danger" id="error_email"></span>
+                <span class="see" id="uldin" style="color:#fff"><img src="img/loader.gif" ></span>
+            </div>
+
+            <div class="icon">
+                <span class="fa fa-lock"></span>               
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="">
+                <label>Password</label>
+                <span class ="text-danger" id="error_password"></span>
+                <span class="see" id="uldin" style="color:#fff"><img src="img/loader.gif" ></span>
+            </div>
+                
+            <div class="icon">
+                <span class="fa fa-lock"></span>               
+            </div>
+            <div class="inputBox">
+                <input type="" name="" required="">
+                <label>Confirm Password</label>
+                <span class ="text-danger" id="error_password1"></span>
+                <span class="see" id="uldin" style="color:#fff"><img src="img/loader.gif"  ></span>
+            </div>
+
+            <input type="submit" name="submit" id="submit" value="REGISTER NOW" class="sub">
+                 
+            <div class="down">
+                <p>Already have an account? <a href="#">Sign in</a></p>
+            </div>
+        </form>
+    </div>
+  </body
+</html>
